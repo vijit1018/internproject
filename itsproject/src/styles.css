@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f5f7;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar-container {
+  width: 120%;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  opacity: 0.7;
+}
+
+.calendar-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.resource-name {
+  width: 150px;
+  background: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-right: 1px solid #ddd;
+}
+
+.droppable-area {
+  display: flex;
+  flex: 1;
+  overflow-x: auto;
+}
+
+.calendar-cell {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-right: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.calendar-cell:hover {
+  background: #e9ecef;
+}
+
+.highlight-today {
+  background: #ffeb3b !important;
+  font-weight: bold;
+}
+
+.event {
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
+  cursor: grab;
+  transition: transform 0.2s;
+}
+
+.event:hover {
+  transform: scale(1.05);
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.delete-btn:hover {
+  color: red;
+}
