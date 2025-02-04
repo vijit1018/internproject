@@ -1,3 +1,4 @@
+npm install react@latest react-dom@latest vite@latest
 # Logs
 logs
 *.log
