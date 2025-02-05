@@ -8,11 +8,11 @@ This calendar project is a **React-based interactive timeline scheduler** that a
 The project enhances scheduling capabilities with an intuitive UI, making it suitable for resource planning and event management.
 
 
-Overview of the Calendar Page. (Landing page)
+1. Overview of the Calendar Page. (Landing page)
 ![image](https://github.com/user-attachments/assets/4295609d-0b79-481a-884f-49ae4631390a)
 
 
-Adding Events in the Calendar
+2. Adding Events in the Calendar
 ![image](https://github.com/user-attachments/assets/58a1e10c-3885-4f59-b3ec-0637c16f4a19)
 
 
@@ -21,7 +21,7 @@ Adding Events in the Calendar
 
 
 
-Deleting an event in a Calendar.
+3. Deleting an event in a Calendar.
 ![image](https://github.com/user-attachments/assets/74917b75-e441-4095-a6b1-7c8551206877)
 
 
