@@ -26,4 +26,4 @@ Adding Events in Calendar
 
 
 
-Note:- I tried to dd+eploy this project on Vercel, but it was unsuccessful.  
+Note:- I tried to deploy this project on Vercel, but it was unsuccessful.  
